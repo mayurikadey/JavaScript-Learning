@@ -1,3 +1,5 @@
+//Notes: //
+//Conversion: 
 /* 
 After converting to Number, followings are the output
 
@@ -16,6 +18,15 @@ After converting to Number, followings are the output
   121 = true
   ""  = false
   "Moon" = true
+  Null = false
+
+*/
+
+/* After converting to String 
+  123 = "123"
+  true = "true"
+  false = "false"
+
 
 */
 
@@ -71,13 +82,27 @@ let num2 = 1;
 let num3 = 0;
 let str1="";
 let str2="Mayurika"
+let nully = null
 let booleanOfNum1 = Boolean(num1)
 let booleanOfNum2 = Boolean(num2)
 let booleanOfNum3 = Boolean(num3)
 let booleanOfstr1 = Boolean(str1)
 let booleanOfstr2 = Boolean(str2)
-//console.table([booleanOfNum1,booleanOfNum2,booleanOfNum3,booleanOfstr1,booleanOfstr2]);
+let booleanofNully = Boolean(nully);
+console.table([booleanOfNum1,booleanOfNum2,booleanOfNum3,booleanOfstr1,booleanOfstr2,booleanofNully]);
 //console.log(typeof booleanOfNum)
+
+let numer1 = 12
+let strOfNumber1 = String(numer1)
+let bool1 = true
+let bool2 = false
+let null1 = null
+let strofBool1 = String(bool1)
+let strofBool2 = String(bool2)
+let strOfNull1 = String(null1)
+// console.log(typeof strOfNumber1);
+// console.table([strOfNumber1,strofBool1,strofBool2,strOfNull1]);
+
 
 
 
