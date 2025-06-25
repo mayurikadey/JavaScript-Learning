@@ -100,7 +100,7 @@ let null1 = null
 let strofBool1 = String(bool1)
 let strofBool2 = String(bool2)
 let strOfNull1 = String(null1)
-// console.log(typeof strOfNumber1);
+console.log(typeof strOfNumber1);
 // console.table([strOfNumber1,strofBool1,strofBool2,strOfNull1]);
 
 
