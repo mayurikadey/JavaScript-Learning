@@ -41,3 +41,4 @@ const addTwo = function(num){   // But in this case it is called expression, so 
 }
 
 console.log(addTwo(5))
+console.log("Mayurika");
