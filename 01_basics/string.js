@@ -7,7 +7,7 @@ const repoCount = 50
 
 const gameName = new String('Mayurika-Pistol-Whipe')
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+//console.log(gameName.__proto__);
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(4));

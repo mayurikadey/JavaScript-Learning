@@ -38,7 +38,9 @@ function : function
 
  const id = Symbol('123')
  const anotherId = Symbol('123')
- //console.log((id === anotherId));  //false
+ //console.log((id === anotherId));  //false  
+ //symbol is user for specific task e.g if we need to mention any character as some special thing
+ //so in above code although value of id and anotherId is same but still they will not be equal
 
  const bigNumber = 357841244556662247855877411200000000652441789632541789524n
  //console.log(typeof bigNumber);
